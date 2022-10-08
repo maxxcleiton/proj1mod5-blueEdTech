@@ -8,11 +8,11 @@ function App() {
     <>
       <Routes>
         <Route
-            path='/auth'
+            path='/signin'
             element={<SignIn />}
           />
         <Route
-            path='/registrar'
+            path='/signup'
             element={<SignUp />}
             />
       </Routes>

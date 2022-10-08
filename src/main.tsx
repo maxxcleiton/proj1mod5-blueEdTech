@@ -5,6 +5,10 @@ import App from './App'
 import GlobalStyle from './assets/GlobalStyle'
 import './index.css'
 
+import Mock from './mock';
+
+Mock.Initialize();
+
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <BrowserRouter>
